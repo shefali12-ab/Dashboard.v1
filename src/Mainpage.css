@@ -17,9 +17,7 @@ button{
   padding: 1rem;
 }
 .contactlogo{
-  position: relative;
-  top:-55px;
-  left: 110rem;
+ 
   width: 4rem;
   
 }
@@ -33,6 +31,9 @@ button{
  background-color: #606c5d;
  grid-column: 1/3;
  grid-row:1/2;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
 
 }
 .listdiv{
@@ -68,16 +69,16 @@ button{
 .mainhead2{
   margin: 1rem;
 }
-.mainheading{
+/* .mainheading{
   font-size: 2rem;
   text-align: center;
   margin-top: -4rem;
  
-}
+} */
 
-.mainsecheading{
+/* .mainsecheading{
   margin: -47rem 0rem 0rem 28rem;
-}
+} */
 .mainsec{
     margin-left: -25rem;
     background-color: #f8f1f1;
